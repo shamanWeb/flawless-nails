@@ -435,6 +435,7 @@ transition: all .3s;
 #portfolio-grid{
     position: relative;
     min-height: 55vw;
+    
     .imgload{
         background-image: url(img/loading.gif);
         background-color: @color_0;
@@ -556,6 +557,42 @@ transition: all .3s;
                 width: 100%;
                 height: 440px;
             }
+        }
+    }
+}
+
+//mssg//
+
+#massage{
+    padding-bottom: 30px;
+    height: 60vh;
+    .msg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        a{
+            height: 50px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            color: #FFF;
+            margin-bottom: 20px;
+        }
+        [class^=icon-]:before, [class*=" icon-"]:before {
+            margin-top: 0;
+            font-size: 2.4rem;
+        }
+        .whatsapp{
+            background-color: #009F01;
+        }
+        .vkontakte{
+            background-color: #4872A3;
+        }
+        .phone{
+            background-color: rgb(18, 108, 211);
         }
     }
 }

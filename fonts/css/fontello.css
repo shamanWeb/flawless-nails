@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?62314082');
-  src: url('../font/fontello.eot?62314082#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?62314082') format('woff2'),
-       url('../font/fontello.woff?62314082') format('woff'),
-       url('../font/fontello.ttf?62314082') format('truetype'),
-       url('../font/fontello.svg?62314082#fontello') format('svg');
+  src: url('../font/fontello.eot?24948835');
+  src: url('../font/fontello.eot?24948835#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?24948835') format('woff2'),
+       url('../font/fontello.woff?24948835') format('woff'),
+       url('../font/fontello.ttf?24948835') format('truetype'),
+       url('../font/fontello.svg?24948835#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?62314082#fontello') format('svg');
+    src: url('../font/fontello.svg?24948835#fontello') format('svg');
   }
 }
 */
@@ -56,29 +56,50 @@
 }
  
 .icon-mail:before { content: '\e800'; } /* '' */
-.icon-phone:before { content: '\e801'; } /* '' */
-.icon-address:before { content: '\e802'; } /* '' */
+.icon-left-open:before { content: '\e801'; } /* '' */
+.icon-right-open:before { content: '\e802'; } /* '' */
 .icon-down-open:before { content: '\e803'; } /* '' */
-.icon-left-open:before { content: '\e804'; } /* '' */
-.icon-right-open:before { content: '\e805'; } /* '' */
-.icon-up-open:before { content: '\e806'; } /* '' */
+.icon-up-open:before { content: '\e804'; } /* '' */
+.icon-up-big:before { content: '\e805'; } /* '' */
+.icon-right-big:before { content: '\e806'; } /* '' */
 .icon-down-big:before { content: '\e807'; } /* '' */
 .icon-left-big:before { content: '\e808'; } /* '' */
-.icon-right-big:before { content: '\e809'; } /* '' */
-.icon-up-big:before { content: '\e80a'; } /* '' */
-.icon-phone-squared:before { content: '\f098'; } /* '' */
-.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-phone:before { content: '\e809'; } /* '' */
+.icon-phone-1:before { content: '\e80a'; } /* '' */
+.icon-mobile:before { content: '\e80b'; } /* '' */
+.icon-location:before { content: '\e80c'; } /* '' */
+.icon-location-circled:before { content: '\e80d'; } /* '' */
+.icon-ok:before { content: '\e80e'; } /* '' */
+.icon-ok-circled:before { content: '\e80f'; } /* '' */
+.icon-ok-circled2:before { content: '\e810'; } /* '' */
+.icon-check:before { content: '\e811'; } /* '' */
+.icon-cancel:before { content: '\e812'; } /* '' */
+.icon-cancel-circled:before { content: '\e813'; } /* '' */
+.icon-cancel-1:before { content: '\e814'; } /* '' */
+.icon-cancel-circled2:before { content: '\e815'; } /* '' */
+.icon-basket:before { content: '\e816'; } /* '' */
+.icon-basket-2:before { content: '\e817'; } /* '' */
+.icon-basket-1:before { content: '\e818'; } /* '' */
+.icon-basket-alt:before { content: '\e819'; } /* '' */
+.icon-spin4:before { content: '\e834'; } /* '' */
+.icon-spin5:before { content: '\e838'; } /* '' */
+.icon-spin6:before { content: '\e839'; } /* '' */
 .icon-left-circled:before { content: '\f0a8'; } /* '' */
 .icon-right-circled:before { content: '\f0a9'; } /* '' */
 .icon-up-circled:before { content: '\f0aa'; } /* '' */
 .icon-down-circled:before { content: '\f0ab'; } /* '' */
 .icon-pinterest-circled:before { content: '\f0d2'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
-.icon-mobile:before { content: '\f10b'; } /* '' */
-.icon-youtube:before { content: '\f167'; } /* '' */
+.icon-ok-squared:before { content: '\f14a'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-skype:before { content: '\f17e'; } /* '' */
 .icon-vkontakte:before { content: '\f189'; } /* '' */
 .icon-pinterest:before { content: '\f231'; } /* '' */
+.icon-whatsapp:before { content: '\f232'; } /* '' */
+.icon-opencart:before { content: '\f23d'; } /* '' */
 .icon-odnoklassniki:before { content: '\f263'; } /* '' */
 .icon-odnoklassniki-square:before { content: '\f264'; } /* '' */
+.icon-telegram:before { content: '\f2c6'; } /* '' */
+.icon-facebook:before { content: '\f30c'; } /* '' */
+.icon-facebook-squared:before { content: '\f30e'; } /* '' */
 .icon-vkontakte-1:before { content: '\f354'; } /* '' */

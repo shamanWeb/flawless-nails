@@ -11,10 +11,22 @@
                 "lmtime": 0,
                 "modified": false
               },
+              "conf.txt": {
+                "type": "-",
+                "size": 2976,
+                "lmtime": 1555940114352,
+                "modified": false
+              },
               "contact-page.php": {
                 "type": "-",
                 "size": 94,
                 "lmtime": 0,
+                "modified": false
+              },
+              "favico_16.png": {
+                "type": "-",
+                "size": 570,
+                "lmtime": 1555512154829,
                 "modified": false
               },
               "fonts": {
@@ -133,15 +145,15 @@
               },
               ".gitignore": {
                 "type": "-",
-                "size": 12,
-                "lmtime": 1555343086004,
+                "size": 36,
+                "lmtime": 1555512211351,
                 "modified": false
               },
               "header.php": {
                 "type": "-",
-                "size": 5479,
-                "lmtime": 1555320386156,
-                "modified": false
+                "size": 5595,
+                "lmtime": 1555399738070,
+                "modified": true
               },
               "img": {
                 "big1.jpg": {
@@ -234,8 +246,8 @@
                 },
                 "section-head.php": {
                   "type": "-",
-                  "size": 346,
-                  "lmtime": 1554450983526,
+                  "size": 402,
+                  "lmtime": 1555943139915,
                   "modified": false
                 },
                 "services.php": {
