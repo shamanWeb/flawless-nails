@@ -2,9 +2,7 @@
 <?php $cat_id = 3; ?>
     <div class="container">
         <div class="row grid">
-            <div class="section-head col-12">
             <?php include __DIR__ . '/section-head.php'; ?>
-            </div>
             <?php 
             query_posts("cat=$cat_id&posts_per_page=88");
             while (have_posts()) : the_post(); 

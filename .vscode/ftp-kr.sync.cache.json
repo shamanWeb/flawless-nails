@@ -11,12 +11,6 @@
                 "lmtime": 0,
                 "modified": false
               },
-              "conf.txt": {
-                "type": "-",
-                "size": 2976,
-                "lmtime": 1555940114352,
-                "modified": false
-              },
               "contact-page.php": {
                 "type": "-",
                 "size": 94,
@@ -32,96 +26,96 @@
               "fonts": {
                 "config.json": {
                   "type": "-",
-                  "size": 3829,
-                  "lmtime": 0,
+                  "size": 6627,
+                  "lmtime": 1556098820000,
                   "modified": false
                 },
                 "css": {
                   "animation.css": {
                     "type": "-",
                     "size": 1857,
-                    "lmtime": 0,
+                    "lmtime": 1556098820000,
                     "modified": false
                   },
                   "fontello-codes.css": {
                     "type": "-",
-                    "size": 1555,
-                    "lmtime": 0,
+                    "size": 2740,
+                    "lmtime": 1556098820000,
                     "modified": false
                   },
                   "fontello.css": {
                     "type": "-",
-                    "size": 3293,
-                    "lmtime": 0,
+                    "size": 4478,
+                    "lmtime": 1556098820000,
                     "modified": false
                   },
                   "fontello-embedded.css": {
                     "type": "-",
-                    "size": 30757,
-                    "lmtime": 0,
+                    "size": 42418,
+                    "lmtime": 1556098820000,
                     "modified": false
                   },
                   "fontello-ie7-codes.css": {
                     "type": "-",
-                    "size": 2932,
-                    "lmtime": 0,
+                    "size": 5188,
+                    "lmtime": 1556098820000,
                     "modified": false
                   },
                   "fontello-ie7.css": {
                     "type": "-",
-                    "size": 3183,
-                    "lmtime": 0,
+                    "size": 5439,
+                    "lmtime": 1556098820000,
                     "modified": false
                   }
                 },
                 "demo.html": {
                   "type": "-",
-                  "size": 11088,
-                  "lmtime": 0,
+                  "size": 15278,
+                  "lmtime": 1556098820000,
                   "modified": false
                 },
                 "font": {
                   "fontello.eot": {
                     "type": "-",
-                    "size": 13024,
-                    "lmtime": 0,
+                    "size": 17700,
+                    "lmtime": 1556098820000,
                     "modified": false
                   },
                   "fontello.svg": {
                     "type": "-",
-                    "size": 12598,
-                    "lmtime": 0,
+                    "size": 21290,
+                    "lmtime": 1556098820000,
                     "modified": false
                   },
                   "fontello.ttf": {
                     "type": "-",
-                    "size": 12856,
-                    "lmtime": 0,
+                    "size": 17532,
+                    "lmtime": 1556098820000,
                     "modified": false
                   },
                   "fontello.woff": {
                     "type": "-",
-                    "size": 7840,
-                    "lmtime": 0,
+                    "size": 11020,
+                    "lmtime": 1556098820000,
                     "modified": false
                   },
                   "fontello.woff2": {
                     "type": "-",
-                    "size": 6684,
-                    "lmtime": 0,
+                    "size": 9432,
+                    "lmtime": 1556098820000,
                     "modified": false
                   }
                 },
                 "LICENSE.txt": {
                   "type": "-",
-                  "size": 342,
-                  "lmtime": 0,
+                  "size": 944,
+                  "lmtime": 1556098820000,
                   "modified": false
                 },
                 "README.txt": {
                   "type": "-",
                   "size": 2876,
-                  "lmtime": 0,
+                  "lmtime": 1556098820000,
                   "modified": false
                 }
               },
@@ -151,9 +145,9 @@
               },
               "header.php": {
                 "type": "-",
-                "size": 5595,
-                "lmtime": 1555399738070,
-                "modified": true
+                "size": 6360,
+                "lmtime": 1556115836446,
+                "modified": false
               },
               "img": {
                 "big1.jpg": {
@@ -209,8 +203,8 @@
               },
               "page.php": {
                 "type": "-",
-                "size": 389,
-                "lmtime": 0,
+                "size": 478,
+                "lmtime": 1556108395693,
                 "modified": false
               },
               "parts": {
@@ -223,8 +217,8 @@
                 "contact.php": {
                   "type": "-",
                   "size": 1276,
-                  "lmtime": 0,
-                  "modified": true
+                  "lmtime": 1556120071336,
+                  "modified": false
                 },
                 "main-menu.php": {
                   "type": "-",
@@ -237,6 +231,12 @@
                   "size": 593,
                   "lmtime": 0,
                   "modified": true
+                },
+                "massage.php": {
+                  "type": "-",
+                  "size": 675,
+                  "lmtime": 1556113556774,
+                  "modified": false
                 },
                 "portfolio-grid.php": {
                   "type": "-",
@@ -565,14 +565,14 @@
               },
               "style.css": {
                 "type": "-",
-                "size": 15995,
-                "lmtime": 1555320352514,
+                "size": 16626,
+                "lmtime": 1556115865983,
                 "modified": false
               },
               "style.less": {
                 "type": "-",
-                "size": 22099,
-                "lmtime": 1555320352653,
+                "size": 22940,
+                "lmtime": 1556115865911,
                 "modified": false
               }
             },

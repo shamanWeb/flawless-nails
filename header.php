@@ -21,10 +21,13 @@
     <meta property="vk:image" content="<?php echo wp_get_attachment_url(179); ?>" />
         <?php  if (is_page(248)){ ?>
             <style type="text/css">
+                .main{
+                    overflow: hidden; 
+                }
                 .main:before {
                     content: "";
                     position: absolute;
-                    top: 0;
+                    top: 50px;
                     left: 25%;
                     width: 100%;
                     height: 100%;
@@ -32,7 +35,6 @@
                     z-index: -1;
                     background-image: url(/logo.svg);
                     background-size: cover;
-                    transform: scale(.9);
                 }
                 .socials-top {
                     display:none;
