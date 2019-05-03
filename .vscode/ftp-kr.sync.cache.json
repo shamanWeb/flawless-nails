@@ -140,13 +140,13 @@
               ".gitignore": {
                 "type": "-",
                 "size": 36,
-                "lmtime": 1555512211351,
+                "lmtime": 1556627890846,
                 "modified": false
               },
               "header.php": {
                 "type": "-",
-                "size": 6360,
-                "lmtime": 1556115836446,
+                "size": 6403,
+                "lmtime": 1556623303285,
                 "modified": false
               },
               "img": {
@@ -196,9 +196,9 @@
               "js": {
                 "scripts.js": {
                   "type": "-",
-                  "size": 5904,
-                  "lmtime": 0,
-                  "modified": true
+                  "size": 5907,
+                  "lmtime": 1556628117356,
+                  "modified": false
                 }
               },
               "page.php": {
@@ -234,8 +234,8 @@
                 },
                 "massage.php": {
                   "type": "-",
-                  "size": 675,
-                  "lmtime": 1556113556774,
+                  "size": 732,
+                  "lmtime": 1556623467692,
                   "modified": false
                 },
                 "portfolio-grid.php": {
@@ -252,8 +252,8 @@
                 },
                 "services.php": {
                   "type": "-",
-                  "size": 1280,
-                  "lmtime": 1555320353019,
+                  "size": 1213,
+                  "lmtime": 1556623422741,
                   "modified": false
                 },
                 "testimonials.php": {
@@ -565,14 +565,14 @@
               },
               "style.css": {
                 "type": "-",
-                "size": 16626,
-                "lmtime": 1556115865983,
+                "size": 16612,
+                "lmtime": 1556627848031,
                 "modified": false
               },
               "style.less": {
                 "type": "-",
-                "size": 22940,
-                "lmtime": 1556115865911,
+                "size": 22942,
+                "lmtime": 1556627847952,
                 "modified": false
               }
             },

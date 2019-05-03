@@ -1,6 +1,46 @@
+/* dancing-script-regular - latin */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dancing Script Regular'), local('DancingScript-Regular'), url('fonts/dancing-script-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/dancing-script-v10-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* comfortaa-regular - cyrillic_latin */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('fonts/comfortaa-v22-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/comfortaa-v22-cyrillic_latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* comfortaa-700 - cyrillic_latin */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url('fonts/comfortaa-v22-cyrillic_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/comfortaa-v22-cyrillic_latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-regular - cyrillic_latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url('fonts/montserrat-v13-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/montserrat-v13-cyrillic_latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - cyrillic_latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url('fonts/montserrat-v13-cyrillic_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/montserrat-v13-cyrillic_latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 body {
   background-color: #FFF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
 }
 .hidden {
   opacity: 0;
@@ -136,7 +176,7 @@ textarea {
   background-color: #FFF;
   cursor: pointer;
   transition: .3s;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
 }
 .button:hover {
   color: #181818;
@@ -265,7 +305,7 @@ textarea {
   align-items: center;
 }
 .header .logo a h2 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script';
   font-size: 2.2rem;
   margin: 0;
   margin-left: 10px;
@@ -287,7 +327,7 @@ textarea {
   display: flex;
   margin: 10px 0 0;
   align-items: center;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
   font-size: 1rem;
 }
 .header .main-menu ul li {
@@ -557,7 +597,7 @@ textarea {
   flex-direction: column;
 }
 #footer .logo a h2 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script';
   font-size: 2.2rem;
   margin: 0;
   margin-left: 10px;
@@ -733,7 +773,7 @@ section#error404 div a {
     flex-direction: column;
   }
   #footer .logo a h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script';
     font-size: 2.2rem;
     margin: 0;
     margin-left: 10px;

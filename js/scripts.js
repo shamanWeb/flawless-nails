@@ -5,27 +5,6 @@ function preloader() {
     }
 }
 
-//галлерея инстаграм
-var feed = new Instafeed({
-    get: 'user',
-    userId: '11225119141',
-    accessToken: '11225119141.1677ed0.cdb74ca58f3f46f5aa513e5a1a45469e', // https://instagram.pixelunion.net/ тут получить 
-    limit: 50,
-    resolution: 'low_resolution',   //thumbnail (default) - 150x150
-                                    //low_resolution - 306x306
-                                    //standard_resolution - 612x612
-    template: '<a href="{{link}}"><img src="{{image}}" /></a>',
-    filter: function(image) {
-        return image.tags.indexOf('flawlessnails') >= 0;
-    },
-    success: function() {
-        $('#instafeed').css('height', 'auto');
-        setTimeout(function() {
-            $('.imgload').hide();
-            $('#instafeed').addClass('fadeIn');
-        }, 300);
-    }
-});
 ////////////////////////////////////////////////////////////
 //документ не реди//////////////////////////////////////////
 ////////////////////////////////////////////////////////////
@@ -39,11 +18,7 @@ $(function() {
     //скрыть прелоадер
     preloader();
     //галлерея инстаграм
-    setTimeout(function() {
-        if ($('#instafeed').length) {
-            feed.run();
-        }
-    }, 50);
+
     //переключить гамбургер
     $('#nav-icon').click(function() {
         $(this).toggleClass('open');

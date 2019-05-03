@@ -18,7 +18,9 @@
                         echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="' . get_bloginfo()  . '" >';
                         ?>
                     <h3><?php echo get_bloginfo(); ?></h3>
-                    <p>Копирование материалов сайта запрещено <?php echo get_bloginfo(); ?> © <? echo current_time('Y'); ?></p>
+                    <p>Копирование материалов сайта запрещено <?php echo get_bloginfo(); ?> ©
+                        <? echo current_time('Y'); ?>
+                    </p>
                 </a>
             </div>
         </div>
@@ -32,22 +34,56 @@
 </footer>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/plugins/fancybox/jquery.fancybox.min.css" />
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/plugins/animate.min.css" />
-<script src='<?php echo get_template_directory_uri(); ?>/plugins/jquery.min.js'></script>
+
 <script src='<?php echo get_template_directory_uri(); ?>/plugins/jquery-easing.js'></script>
+<!--
 <script src='<?php echo get_template_directory_uri(); ?>/plugins/jquery.scrollSpeed.js'></script>
-<script src='<?php echo get_template_directory_uri(); ?>/plugins/instafeed.min.js'></script>
+-->
 <script src='<?php echo get_template_directory_uri(); ?>/plugins/fancybox/jquery.fancybox.min.js'></script>
 <script src='<?php echo get_template_directory_uri(); ?>/plugins/jquery.viewportchecker.min.js'></script>
 <script src='<?php echo get_template_directory_uri(); ?>/js/scripts.js'></script>
-<noscript><div><img src="https://mc.yandex.ru/watch/52908865" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+<? if (is_page(21)){?>
+<script src='<?php echo get_template_directory_uri(); ?>/plugins/instafeed.min.js'></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+var feed = new Instafeed({
+    get: 'user',
+    userId: '11225119141',
+    accessToken: '11225119141.1677ed0.cdb74ca58f3f46f5aa513e5a1a45469e', // https://instagram.pixelunion.net/ тут получить 
+    limit: 50,
+    resolution: 'low_resolution',   //thumbnail (default) - 150x150
+                                    //low_resolution - 306x306
+                                    //standard_resolution - 612x612
+    template: '<a href="{{link}}"><img src="{{image}}" /></a>',
+    filter: function(image) {
+        return image.tags.indexOf('flawlessnailsvrn') >= 0;
+    },
+    success: function() {
+        $('#instafeed').css('height', 'auto');
+        setTimeout(function() {
+            $('.imgload').hide();
+            $('#instafeed').addClass('fadeIn');
+        }, 300);
+    }
+});
+setTimeout(function() {
+        if ($('#instafeed').length) {
+            feed.run();
+        }
+    }, 50);
+});
+</script>
+<? }?>
+
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/52908865" style="position:absolute; left:-9999px;" alt="" /></div>
+</noscript>
 <?php wp_footer(); ?>
-<?php
-echo '<link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Dancing+Script:400|Montserrat:400,700&amp;subset=cyrillic" rel="stylesheet">';
-?>
 
 <!-- BEGIN JIVOSITE CODE {literal} -->
 <script type='text/javascript'>
-(function() {
+document.addEventListener("DOMContentLoaded", function(event) {
     var widget_id = 'LT0JB6ZOEA';
     var d = document;
     var w = window;
@@ -69,7 +105,7 @@ echo '<link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Danc
             w.addEventListener('load', l, false);
         }
     }
-})();
+});
 </script>
 <!-- {/literal} END JIVOSITE CODE -->
 </body>

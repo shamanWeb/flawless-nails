@@ -7,14 +7,14 @@
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favico_16.png" />
     <link rel="profile" href="https://gmpg.org/xfn/11" />
     <link rel="preconnect" href="//s.w.org" crossorigin>
-    <link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
-    <link rel="preconnect" href="//ajax.googleapis.com" crossorigin>
     <link rel="preconnect" href="//google-analytics.com" crossorigin>
     <link rel="preconnect" href="//mc.yandex.ru" crossorigin>
     <link rel="preconnect" href="//yandex.ru" crossorigin>
+    <!--
     <link rel="preconnect" href="//code.jivosite.com" crossorigin>
     <link rel="preconnect" href="//telemetry.jivosite.com" crossorigin>
     <link rel="preconnect" href="//cdn-cis.jivosite.com" crossorigin>
+    -->
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/plugins/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/fonts/css/fontello.css" />
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/style.css" />
