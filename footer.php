@@ -32,16 +32,13 @@
         <i class="icon-up-big"></i>
     </div>
 </footer>
+
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/plugins/fancybox/jquery.fancybox.min.css" />
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/plugins/animate.min.css" />
 
-<script src='<?php echo get_template_directory_uri(); ?>/plugins/jquery-easing.js'></script>
 <!--
 <script src='<?php echo get_template_directory_uri(); ?>/plugins/jquery.scrollSpeed.js'></script>
 -->
-<script src='<?php echo get_template_directory_uri(); ?>/plugins/fancybox/jquery.fancybox.min.js'></script>
-<script src='<?php echo get_template_directory_uri(); ?>/plugins/jquery.viewportchecker.min.js'></script>
-<script src='<?php echo get_template_directory_uri(); ?>/js/scripts.js'></script>
 
 <? if (is_page(21)){?>
 <script src='<?php echo get_template_directory_uri(); ?>/plugins/instafeed.min.js'></script>
@@ -75,6 +72,21 @@ setTimeout(function() {
 });
 </script>
 <? }?>
+
+<? if (is_home()){?>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    if ($('.map').length > 0) {
+        setTimeout(function() {
+            var f = document.querySelectorAll('iframe')[0];
+            f.src = 'https://yandex.ru/map-widget/v1/?um=constructor%3A4a9a4a6868b57d28895418a64b0ad7be75d3af90521d8488e7c28a498d4a0202&amp;source=constructor';
+        }, 7);
+    }
+    
+});
+</script>
+<? }?>
+
 
 <noscript>
     <div><img src="https://mc.yandex.ru/watch/52908865" style="position:absolute; left:-9999px;" alt="" /></div>

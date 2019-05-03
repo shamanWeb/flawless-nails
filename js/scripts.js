@@ -17,8 +17,6 @@ function preloader() {
 $(function() {
     //скрыть прелоадер
     preloader();
-    //галлерея инстаграм
-
     //переключить гамбургер
     $('#nav-icon').click(function() {
         $(this).toggleClass('open');
@@ -56,6 +54,7 @@ $(function() {
     $("a.fnbox").fancybox({
         beforeShow: function() {}
     });
+
     // карта асинхронно
     if ($('.map').length > 0) {
         setTimeout(function() {
@@ -63,6 +62,7 @@ $(function() {
             f.src = 'https://yandex.ru/map-widget/v1/?um=constructor%3A4a9a4a6868b57d28895418a64b0ad7be75d3af90521d8488e7c28a498d4a0202&amp;source=constructor';
         }, 7);
     }
+    
     //кнопка вверх
     $(window).scroll(function() {
         if($(this).scrollTop() > $(window).height())  {

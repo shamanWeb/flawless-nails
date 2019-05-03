@@ -19,7 +19,8 @@
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/fonts/css/fontello.css" />
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/style.css" />
     <meta property="vk:image" content="<?php echo wp_get_attachment_url(179); ?>" />
-        <?php  if (is_page(248)){ ?>
+   
+        <?php if (is_page(248)){ ?>
             <style type="text/css">
                 .main{
                     overflow: hidden; 

@@ -5,6 +5,13 @@
         wp_deregister_script( 'jquery' );
         wp_register_script( 'jquery', get_template_directory_uri() ."/plugins/jquery.min.js", array(), '3.1.1' );
     }
+    wp_enqueue_script('jquery', get_template_directory_uri() . '/plugins/jquery.min.js', array('jquery'), null, true);
+    wp_enqueue_script('jquery-easing', get_template_directory_uri() . '/plugins/jquery-easing.js', array('jquery'), null, true);
+    wp_enqueue_script('viewportchecker', get_template_directory_uri() . '/plugins/jquery.viewportchecker.min.js', array('jquery'), null, true);
+    wp_enqueue_script('fancybox', get_template_directory_uri() . '/plugins/fancybox/jquery.fancybox.min.js', array('jquery'), null, true);
+    wp_enqueue_script('my-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), null, true);
+
+
     // закрытие страниц пагинации от индексирования
     add_action( 'wp_head', 'art_noindex_paged', 2 );
     function art_noindex_paged() {
