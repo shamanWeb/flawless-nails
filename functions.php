@@ -5,12 +5,21 @@
         wp_deregister_script( 'jquery' );
         wp_register_script( 'jquery', get_template_directory_uri() ."/plugins/jquery.min.js", array(), '3.1.1' );
     }
+
+    //подключаем скрипты
     wp_enqueue_script('jquery', get_template_directory_uri() . '/plugins/jquery.min.js', array('jquery'), null, true);
     wp_enqueue_script('jquery-easing', get_template_directory_uri() . '/plugins/jquery-easing.js', array('jquery'), null, true);
     wp_enqueue_script('viewportchecker', get_template_directory_uri() . '/plugins/jquery.viewportchecker.min.js', array('jquery'), null, true);
     wp_enqueue_script('fancybox', get_template_directory_uri() . '/plugins/fancybox/jquery.fancybox.min.js', array('jquery'), null, true);
     wp_enqueue_script('my-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), null, true);
+    
+    //подключаем стили в футер
+    add_action( 'get_footer', 'prefix_add_footer_styles' );
+    function prefix_add_footer_styles() {
+        wp_enqueue_style( 'fancybox_plus_animate', get_template_directory_uri() . '/plugins/fancybox/jquery.fancybox.min.css' );
+        //wp_enqueue_style( 'animate', get_template_directory_uri() . '/plugins/animate.min.css' );
 
+    };
 
     // закрытие страниц пагинации от индексирования
     add_action( 'wp_head', 'art_noindex_paged', 2 );
@@ -19,6 +28,7 @@
             echo '<meta name="robots" content="noindex,nofollow">';
         }
     }
+
     // добавляем noindex и nofollow, если 404
     add_action('wp_head', 'my_404_noindex', 3);
     function my_404_noindex () {
@@ -26,6 +36,7 @@
             echo "".'<meta name="robots" content="noindex,nofollow" />'."\n";
         }
     }
+    
     //миниатюры поста вкл
     add_theme_support( 'post-thumbnails' );
     set_post_thumbnail_size( 1200, 9999 );

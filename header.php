@@ -1,50 +1,49 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
+
 <head>
     <title><?php echo wp_get_document_title(); ?></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#FFF"/>
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favico_16.png" />
     <link rel="profile" href="https://gmpg.org/xfn/11" />
     <link rel="preconnect" href="//s.w.org" crossorigin>
-    <link rel="preconnect" href="//google-analytics.com" crossorigin>
-    <link rel="preconnect" href="//mc.yandex.ru" crossorigin>
     <link rel="preconnect" href="//yandex.ru" crossorigin>
-    <!--
-    <link rel="preconnect" href="//code.jivosite.com" crossorigin>
-    <link rel="preconnect" href="//telemetry.jivosite.com" crossorigin>
-    <link rel="preconnect" href="//cdn-cis.jivosite.com" crossorigin>
-    -->
-    <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" media="all"
+        href="<?php echo get_template_directory_uri(); ?>/plugins/bootstrap/css/bootstrap-optimize.css" />
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/fonts/css/fontello.css" />
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/style.css" />
     <meta property="vk:image" content="<?php echo wp_get_attachment_url(179); ?>" />
-   
-        <?php if (is_page(248)){ ?>
-            <style type="text/css">
-                .main{
-                    overflow: hidden; 
-                }
-                .main:before {
-                    content: "";
-                    position: absolute;
-                    top: 50px;
-                    left: 25%;
-                    width: 100%;
-                    height: 100%;
-                    opacity: 0.1;
-                    z-index: -1;
-                    background-image: url(/logo.svg);
-                    background-size: cover;
-                }
-                .socials-top {
-                    display:none;
-                }
-                .header .logo a h2 {
-                    display: block;
-                }
-            </style>
-        <?php } ?>
+
+    <?php if (is_page(248)){ ?>
+    <style type="text/css">
+    .main {
+        overflow: hidden;
+    }
+
+    .main:before {
+        content: "";
+        position: absolute;
+        top: 50px;
+        left: 25%;
+        width: 100%;
+        height: 100%;
+        opacity: 0.1;
+        z-index: -1;
+        background-image: url(/logo.svg);
+        background-size: cover;
+    }
+
+    .socials-top {
+        display: none;
+    }
+
+    .header .logo a h2 {
+        display: block;
+    }
+    </style>
+    <?php } ?>
     <?php wp_head(); ?>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
@@ -76,8 +75,9 @@
     }
     gtag('js', new Date());
 
-    gtag('config', 'UA-136703267-1', { 'optimize_id': 'GTM-TK333X4'});
-    
+    gtag('config', 'UA-136703267-1', {
+        'optimize_id': 'GTM-TK333X4'
+    });
     </script>
     <script type='application/ld+json'>
     {
@@ -102,6 +102,7 @@
     }
     </script>
 </head>
+
 <body>
     <div id="preloader">
         <?php 
@@ -127,13 +128,13 @@
                     <?php include __DIR__ . '/parts/main-menu.php'; ?>
                     <div class="socials socials-top">
                         <?php $post = get_post(79); setup_postdata($post); ?>
-                        <a href="tel:<?php echo get_field('+tel', $post); ?> " aria-label="Телефон">
+                        <a href="tel:<?php echo get_field('+tel', $post); ?> " aria-label="Телефон" title="Телефон">
                             <i class="icon-phone"></i>
                         </a>
-                        <a href="https://www.instagram.com/flawlessnails_vrn" aria-label="Instagram">
+                        <a href="https://www.instagram.com/flawlessnails_vrn" aria-label="Instagram" title="instagram">
                             <i class="icon-instagram"></i>
                         </a>
-                        <a href="https://vk.com/fawlessnails" aria-label="В контакте">
+                        <a href="https://vk.com/fawlessnails" aria-label="В контакте" title="В контакте">
                             <i class="icon-vkontakte"></i>
                         </a>
                     </div>

@@ -24,6 +24,30 @@
                 "modified": false
               },
               "fonts": {
+                "comfortaa-v22-cyrillic_latin-700.woff": {
+                  "type": "-",
+                  "size": 28908,
+                  "lmtime": 1556902280836,
+                  "modified": false
+                },
+                "comfortaa-v22-cyrillic_latin-700.woff2": {
+                  "type": "-",
+                  "size": 23656,
+                  "lmtime": 1556902280975,
+                  "modified": false
+                },
+                "comfortaa-v22-cyrillic_latin-regular.woff": {
+                  "type": "-",
+                  "size": 29276,
+                  "lmtime": 1556902281100,
+                  "modified": false
+                },
+                "comfortaa-v22-cyrillic_latin-regular.woff2": {
+                  "type": "-",
+                  "size": 24116,
+                  "lmtime": 1556902281240,
+                  "modified": false
+                },
                 "config.json": {
                   "type": "-",
                   "size": 6627,
@@ -68,6 +92,18 @@
                     "modified": false
                   }
                 },
+                "dancing-script-v10-latin-regular.woff": {
+                  "type": "-",
+                  "size": 33212,
+                  "lmtime": 1556902281365,
+                  "modified": false
+                },
+                "dancing-script-v10-latin-regular.woff2": {
+                  "type": "-",
+                  "size": 28120,
+                  "lmtime": 1556902281491,
+                  "modified": false
+                },
                 "demo.html": {
                   "type": "-",
                   "size": 15278,
@@ -106,23 +142,35 @@
                     "modified": false
                   }
                 },
-                "LICENSE.txt": {
+                "montserrat-v13-cyrillic_latin-700.woff": {
                   "type": "-",
-                  "size": 944,
-                  "lmtime": 1556098820000,
+                  "size": 33552,
+                  "lmtime": 1556902281618,
                   "modified": false
                 },
-                "README.txt": {
+                "montserrat-v13-cyrillic_latin-700.woff2": {
                   "type": "-",
-                  "size": 2876,
-                  "lmtime": 1556098820000,
+                  "size": 27140,
+                  "lmtime": 1556902281750,
+                  "modified": false
+                },
+                "montserrat-v13-cyrillic_latin-regular.woff": {
+                  "type": "-",
+                  "size": 33164,
+                  "lmtime": 1556902281876,
+                  "modified": false
+                },
+                "montserrat-v13-cyrillic_latin-regular.woff2": {
+                  "type": "-",
+                  "size": 26928,
+                  "lmtime": 1556902282001,
                   "modified": false
                 }
               },
               "footer.php": {
                 "type": "-",
-                "size": 3321,
-                "lmtime": 1554911136854,
+                "size": 1694,
+                "lmtime": 1556903228663,
                 "modified": false
               },
               "front-page.php": {
@@ -133,9 +181,9 @@
               },
               "functions.php": {
                 "type": "-",
-                "size": 3009,
+                "size": 3664,
                 "lmtime": 0,
-                "modified": false
+                "modified": true
               },
               ".gitignore": {
                 "type": "-",
@@ -145,8 +193,8 @@
               },
               "header.php": {
                 "type": "-",
-                "size": 6403,
-                "lmtime": 1556623303285,
+                "size": 6285,
+                "lmtime": 1556902484373,
                 "modified": false
               },
               "img": {
@@ -185,6 +233,12 @@
                   "size": 72053,
                   "lmtime": 0,
                   "modified": false
+                },
+                "Ymap.png": {
+                  "type": "-",
+                  "size": 174730,
+                  "lmtime": 1556902979904,
+                  "modified": false
                 }
               },
               "index.php": {
@@ -196,8 +250,8 @@
               "js": {
                 "scripts.js": {
                   "type": "-",
-                  "size": 5907,
-                  "lmtime": 1556628117356,
+                  "size": 5547,
+                  "lmtime": 1556908734466,
                   "modified": false
                 }
               },
@@ -216,8 +270,14 @@
                 },
                 "contact.php": {
                   "type": "-",
-                  "size": 1276,
-                  "lmtime": 1556120071336,
+                  "size": 1364,
+                  "lmtime": 1556906526807,
+                  "modified": false
+                },
+                "footer-js.php": {
+                  "type": "-",
+                  "size": 2239,
+                  "lmtime": 1556903198847,
                   "modified": false
                 },
                 "main-menu.php": {
@@ -565,15 +625,15 @@
               },
               "style.css": {
                 "type": "-",
-                "size": 16612,
-                "lmtime": 1556627848031,
+                "size": 18579,
+                "lmtime": 1556906546126,
                 "modified": false
               },
               "style.less": {
                 "type": "-",
-                "size": 22942,
+                "size": 25145,
                 "lmtime": 1556627847952,
-                "modified": false
+                "modified": true
               }
             },
             "index.php": {

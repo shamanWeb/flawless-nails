@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="map-block col-lg-6 col-md-12 col-xs-12">
-                <div class="map">
+                <div id="map" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Ymap.png');">
                     <iframe src="" frameborder="0" title="Как нас найти"></iframe>
                 </div>
             </div>
