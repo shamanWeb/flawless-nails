@@ -18,7 +18,6 @@
     function prefix_add_footer_styles() {
         wp_enqueue_style( 'fancybox_plus_animate', get_template_directory_uri() . '/plugins/fancybox/jquery.fancybox.min.css' );
         //wp_enqueue_style( 'animate', get_template_directory_uri() . '/plugins/animate.min.css' );
-
     };
 
     // закрытие страниц пагинации от индексирования

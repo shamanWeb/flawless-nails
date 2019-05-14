@@ -54,38 +54,38 @@ $(function() {
     $("a.fnbox").fancybox({
         beforeShow: function() {}
     });
-// карта асинхронно
-
-    (function () {
-        if (typeof EventTarget !== 'undefined') {
-        var func = EventTarget.prototype.addEventListener;
     
-        EventTarget.prototype.addEventListener = function (type, fn, capture) {
-            this.func = func;
-            capture = capture || {};
-            capture.passive = false;
-            this.func(type, fn, capture);
-        };
-    }
-    }());
-
-    if ($('#map').length > 0) {
-    var target = $('#map');
-    var targetPos = target.offset().top;
-    var winHeight = $(window).height();
-    var scrollToElem = targetPos - winHeight;
-    var q = false;
-    $(window).scroll(function(){
-      var winScrollTop = $(this).scrollTop();
-      if (winScrollTop > scrollToElem){
-          if (!q) {
-        var f = document.querySelectorAll('iframe')[0];
-        f.src = 'https://yandex.ru/map-widget/v1/?um=constructor%3A4a9a4a6868b57d28895418a64b0ad7be75d3af90521d8488e7c28a498d4a0202&amp;source=constructor';
-        q= true;    
-            }
+    // карта асинхронно
+        (function () {
+            if (typeof EventTarget !== 'undefined') {
+            var func = EventTarget.prototype.addEventListener;
+        
+            EventTarget.prototype.addEventListener = function (type, fn, capture) {
+                this.func = func;
+                capture = capture || {};
+                capture.passive = false;
+                this.func(type, fn, capture);
+            };
         }
-    });
-}
+        }());
+
+        if ($('#map').length > 0) {
+        var target = $('#map');
+        var targetPos = target.offset().top;
+        var winHeight = $(window).height();
+        var scrollToElem = targetPos - winHeight;
+        var q = false;
+        $(window).scroll(function(){
+        var winScrollTop = $(this).scrollTop();
+        if (winScrollTop > scrollToElem){
+            if (!q) {
+            var f = document.querySelectorAll('iframe')[0];
+            f.src = 'https://yandex.ru/map-widget/v1/?um=constructor%3A4a9a4a6868b57d28895418a64b0ad7be75d3af90521d8488e7c28a498d4a0202&amp;source=constructor';
+            q= true;    
+                }
+            }
+        });
+    }
     
     /*
     if ($('#map').length > 0) {

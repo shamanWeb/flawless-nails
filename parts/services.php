@@ -9,7 +9,7 @@
             $image = get_field('img');
             $image = $image['sizes']['medium']; 
             ?>   
-            <div class="grid-item col-lg-3 col-md-6 col-xs-12 animated invisible">
+            <div class="grid-item col-lg-3 col-md-6 col-sm-6 animated invisible">
                 <div class="icon">
                     <a href="<?php echo get_permalink( $post);?>" title="Подробней">
                         <img src="<?php echo $image; ?>" alt="<?php the_title();?>" title="Подробней">
