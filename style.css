@@ -487,6 +487,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin-bottom: 9px;
 }
 #testimonials .strong-view.default {
   padding: 0 15px;
@@ -523,6 +524,12 @@ textarea {
 }
 #contacts {
   padding-bottom: 30px;
+}
+#contacts .goto-zapis {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 9px;
 }
 #contacts .text-block {
   display: block;
@@ -848,6 +855,14 @@ section#error404 div a {
   }
   #contacts .map-block {
     padding: 0 15px;
+  }
+  #testimonials .send-feedback {
+    justify-content: center;
+    margin-bottom: 9px;
+  }
+  #contacts .goto-zapis {
+    justify-content: center;
+    margin-bottom: 9px;
   }
 }
 #preloader {

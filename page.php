@@ -11,7 +11,7 @@ if (is_page(60)){ //отзывы
 if (is_page(91)){ //контакты
     include __DIR__ . '/parts/contact.php';
 }
-if (is_page(248)){ //меседжеры
+if (is_page(248)){ //записаться
     include __DIR__ . '/parts/massage.php';
 }
 get_footer();  ?>

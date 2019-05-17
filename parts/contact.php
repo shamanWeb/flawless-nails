@@ -6,7 +6,10 @@
     ?>
     <div class="container">
         <div class="row">
-        <?php include __DIR__ . '/section-head.php'; ?>
+            <?php include __DIR__ . '/section-head.php'; ?>
+            <div class="goto-zapis col-sm-6 col-12">
+                <a class="button" href="<?php echo get_permalink(248); ?>">Записаться</a>
+            </div>
             <div class="text-block col-lg-6 col-md-12 col-xs-12">
                 <div class="inner-content">
                     <div class="text">
@@ -21,7 +24,8 @@
                 </div>
             </div>
             <div class="map-block col-lg-6 col-md-12 col-xs-12">
-                <div id="map" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Ymap.png');">
+                <div id="map"
+                    style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Ymap.png');">
                     <iframe src="" frameborder="0" title="Как нас найти"></iframe>
                 </div>
             </div>

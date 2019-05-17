@@ -1,4 +1,4 @@
-<div class="section-head <?php if (is_page(60) ){echo "col-6";} else {echo "col-12";}?>">
+<div class="section-head <?php if (is_page(array(60, 91)) ){echo "col-6";} else {echo "col-12";}?>">
     <?php if (is_page() ){ ?>
     <h1><?php the_title(); ?></h1>
     <?php } else { 
