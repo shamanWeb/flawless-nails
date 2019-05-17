@@ -1,22 +1,35 @@
 <?php
-    //заменяем jquery
-    add_action( 'wp_enqueue_scripts', 'replace_core_jquery_version' );
-    function replace_core_jquery_version() {
-        wp_deregister_script( 'jquery' );
-        wp_register_script( 'jquery', get_template_directory_uri() ."/plugins/jquery.min.js", array(), '3.1.1' );
+    //отключаем стили гутенберг
+    add_action( 'wp_print_styles', 'wps_deregister_styles', 100 );
+    function wps_deregister_styles() {
+        if (!is_admin()) {
+        wp_dequeue_style( 'wp-block-library' );
+        }
     }
-
+    //заменяем jquery
+	add_action('wp_enqueue_scripts', 'my_update_jquery');
+	function my_update_jquery () {
+		if ( !is_admin() ) { 
+		wp_deregister_script('jquery');
+		wp_register_script('jquery', get_template_directory_uri() .'/plugins/jquery.min.js', false, false, false);
+		wp_enqueue_script('jquery');
+		}
+	}
     //подключаем скрипты
-    wp_enqueue_script('jquery', get_template_directory_uri() . '/plugins/jquery.min.js', array('jquery'), null, true);
+    add_action( 'get_footer', 'add_my_scripts');
+	function add_my_scripts(){
     wp_enqueue_script('jquery-easing', get_template_directory_uri() . '/plugins/jquery-easing.js', array('jquery'), null, true);
     wp_enqueue_script('viewportchecker', get_template_directory_uri() . '/plugins/jquery.viewportchecker.min.js', array('jquery'), null, true);
     wp_enqueue_script('fancybox', get_template_directory_uri() . '/plugins/fancybox/jquery.fancybox.min.js', array('jquery'), null, true);
     wp_enqueue_script('my-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), null, true);
-    
+    }
     //подключаем стили в футер
-    add_action( 'get_footer', 'prefix_add_footer_styles' );
-    function prefix_add_footer_styles() {
+    add_action( 'get_footer', 'add_my_styles' );
+    function add_my_styles() {
+        wp_enqueue_style( 'fontello', get_template_directory_uri() . '/fonts/css/fontello.css' );
+        wp_enqueue_style( 'bootstrap-optimize', get_template_directory_uri() . '/plugins/bootstrap/css/bootstrap-optimize.css' );
         wp_enqueue_style( 'fancybox_plus_animate', get_template_directory_uri() . '/plugins/fancybox/jquery.fancybox.min.css' );
+        wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css' );
         //wp_enqueue_style( 'animate', get_template_directory_uri() . '/plugins/animate.min.css' );
     };
 

@@ -10,10 +10,12 @@
     <link rel="profile" href="https://gmpg.org/xfn/11" />
     <link rel="preconnect" href="//s.w.org" crossorigin>
     <link rel="preconnect" href="//yandex.ru" crossorigin>
+    <!--
     <link rel="stylesheet" media="all"
         href="<?php echo get_template_directory_uri(); ?>/plugins/bootstrap/css/bootstrap-optimize.css" />
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/fonts/css/fontello.css" />
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/style.css" />
+-->
     <meta property="vk:image" content="<?php echo wp_get_attachment_url(179); ?>" />
 
     <?php if (is_page(248)){ ?>
