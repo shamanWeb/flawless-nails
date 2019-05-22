@@ -34,6 +34,11 @@
 </footer>
 
 <?php include __DIR__ . '/parts/footer-js.php'; ?>
+<style type="text/css">
+    html{
+        display:unset;
+    }
+</style>
 </body>
 
 </html>

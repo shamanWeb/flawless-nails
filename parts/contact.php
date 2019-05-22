@@ -7,9 +7,11 @@
     <div class="container">
         <div class="row">
             <?php include __DIR__ . '/section-head.php'; ?>
+            <?php  if (is_page(91)){ ?>
             <div class="goto-zapis col-sm-6 col-12">
                 <a class="button" href="<?php echo get_permalink(248); ?>">Записаться</a>
             </div>
+            <?php } ?>
             <div class="text-block col-lg-6 col-md-12 col-xs-12">
                 <div class="inner-content">
                     <div class="text">

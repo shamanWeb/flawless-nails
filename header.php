@@ -17,6 +17,31 @@
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/style.css" />
 -->
     <meta property="vk:image" content="<?php echo wp_get_attachment_url(179); ?>" />
+    <style type="text/css">
+    html{
+        display:none;
+    }
+    #preloader {
+	background-color: @color_0;
+	width: 100%;
+	height: 100%;
+    position: fixed;
+	z-index: 1010;
+
+    } 
+    #preloader img{
+		width: 92px;
+		height: auto;
+		text-align: center;
+		position: absolute;
+		top: 50%;
+        left: 50%;
+        margin-top: -46px;
+        margin-left: -46px;
+        text-transform: uppercase;
+        animation: logo-pulce 1s linear infinite;
+      }
+    </style>
 
     <?php if (is_page(248)){ ?>
     <style type="text/css">

@@ -265,25 +265,6 @@ textarea {
   width: 0%;
   left: 50%;
 }
-#preloader {
-  background-color: #FFF;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: 1010;
-}
-#preloader img {
-  width: 92px;
-  height: auto;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -46px;
-  margin-left: -46px;
-  text-transform: uppercase;
-  animation: logo-pulce 1s linear infinite;
-}
 @keyframes logo-pulce {
   0%,
   100% {
