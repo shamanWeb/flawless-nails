@@ -152,12 +152,17 @@
                     </a>
                 </div>
                 <div class="main-menu">
-                    <?php include __DIR__ . '/parts/main-menu.php'; ?>
+                    <ul>
+                        <?php include __DIR__ . '/parts/main-menu.php'; ?>
+                    </ul>
                     <div class="socials socials-top">
-                        <?php $post = get_post(79); setup_postdata($post); ?>
-                        <a href="tel:<?php echo get_field('+tel', $post); ?> " aria-label="Телефон" title="Телефон">
+                        <?php $post = get_post(79); setup_postdata($post); $tel=get_field('tel', $post);?>
+                        <a class="ajax-tel-mini" href="tel:" aria-label="Телефон" title="Телефон" rel="nofollow">
                             <i class="icon-phone"></i>
                         </a>
+                        <!-- <a href="tel:<?php //echo telToHref ($tel); ?> " aria-label="Телефон" title="Телефон">
+                            <i class="icon-phone"></i>
+                        </a> -->
                         <a href="https://www.instagram.com/flawlessnails_vrn" aria-label="Instagram" title="instagram">
                             <i class="icon-instagram"></i>
                         </a>

@@ -68,6 +68,7 @@ $(function() {
         };
     }
     }());
+
     function loadMap(href){
         var winScrollTop = $(this).scrollTop();
         if (winScrollTop > scrollToElem){
@@ -78,6 +79,7 @@ $(function() {
                 }
             }
     }
+    
     if ($('#map').length > 0) {
         var mapHref= 'https://yandex.ru/map-widget/v1/?um=constructor%3A4a9a4a6868b57d28895418a64b0ad7be75d3af90521d8488e7c28a498d4a0202&amp;source=constructor';
         var target = $('#map');
@@ -92,14 +94,6 @@ $(function() {
             loadMap(mapHref);
         });
     }
-    /*
-    if ($('#map').length > 0) {
-        setTimeout(function() {
-            var f = document.querySelectorAll('iframe')[0];
-            f.src = 'https://yandex.ru/map-widget/v1/?um=constructor%3A4a9a4a6868b57d28895418a64b0ad7be75d3af90521d8488e7c28a498d4a0202&amp;source=constructor';
-        }, 7);
-    }
-    */
    
     //кнопка вверх
     $(window).scroll(function() {
@@ -164,4 +158,21 @@ $(function() {
      }
    }, 400)
  }
+
+// подгрузка телефона с защитой от ботов
+if ($('.ajax-tel-mini').length > 0) { //для главной, где просто иконка
+let tel
+$.ajax({
+  type: 'get',
+  url: '/wp-content/themes/flawless/parts/get-tel-icon.php',
+  success: (r) => {
+    tel = r;
+    $('.ajax-tel-mini').attr('href', tel);
+  }
+});
+}
+
+if ($('.ajax-tel').length > 0) {
+    $('.ajax-tel').load('/wp-content/themes/flawless/parts/get-tel.php');
+}
 }); //конец документ реди

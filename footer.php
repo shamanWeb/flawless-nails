@@ -6,7 +6,15 @@
                 <div class="section-head col-12">
                     <h3>Навигация</h3>
                 </div>
-                <?php include __DIR__ . '/parts/main-menu.php'; ?>
+                <ul>
+                    <?php include __DIR__ . '/parts/main-menu.php'; ?>
+                    <li class="menu-item">
+                        <a href="<?php echo get_permalink(248); ?>" title="Записаться">Записаться</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="<?php echo get_permalink(275); ?>" title="Политика конфеденциальности">Политика конфеденциальности</a>
+                    </li>
+                </ul>
             </nav>
             <div class="logo col-md-6 col-xs-12">
                 <?php 

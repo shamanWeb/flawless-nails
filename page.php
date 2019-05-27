@@ -14,4 +14,7 @@ if (is_page(91)){ //контакты
 if (is_page(248)){ //записаться
     include __DIR__ . '/parts/massage.php';
 }
+if (is_page(275)){ //политика
+    include __DIR__ . '/parts/politic.php';
+}
 get_footer();  ?>

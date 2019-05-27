@@ -105,3 +105,14 @@
         'id' => 'wp-admin-bar-new-link',  'title' => __('Связаться с разработчиком'),  'href' => 'mailto:putincev@adm-lab.pro'  
         ));  
 }  
+
+// преобразуем телефон для ссылки
+function telToHref ($string) {
+    $table = array(
+        '('=>'', ')'=>'', '-'=>'', ' '=>'',
+    );
+    $string = strtr($string, $table);
+    $first = "+7";
+    $string = substr_replace($string, $first, 0, 1);
+    return $string;
+}
