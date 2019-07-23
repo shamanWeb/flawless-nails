@@ -671,6 +671,12 @@ textarea {
 #btn-up i:before {
   margin: auto!important;
 }
+section#politic h2 {
+  font-size: 28px;
+}
+section#politic h3 {
+  font-size: 22px;
+}
 section#error404 {
   min-height: 40vw;
   box-shadow: none;

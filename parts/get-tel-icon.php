@@ -4,13 +4,16 @@ $post = get_post(79);
 setup_postdata($post); 
 $tel = get_field('tel', $post);
 
-function isBot() {
-     if ( !(isset($_COOKIE['wordpress_test_cookie']) && isset($_SERVER['HTTP_USER_AGENT'])) ) return true;
-     return preg_match("/(bot|slurp|mail\.ru)/i", $_SERVER['HTTP_USER_AGENT']);
- }
- $href=telToHref ($tel);
+$href=telToHref ($tel);
+echo 'tel:'.$href;
+
+// function isBot() {
+//      if ( !(isset($_COOKIE['wordpress_test_cookie']) && isset($_SERVER['HTTP_USER_AGENT'])) ) return true;
+//      return preg_match("/(bot|slurp|mail\.ru)/i", $_SERVER['HTTP_USER_AGENT']);
+//  }
+
  
- //echo isBot()? '': '<a href="tel:'.$href.'" aria-label="Телефон" title="Телефон"><i class="icon-phone"></i></a>';
- echo isBot()? '': 'tel:'.$href;
+//  //echo isBot()? '': '<a href="tel:'.$href.'" aria-label="Телефон" title="Телефон"><i class="icon-phone"></i></a>';
+//  echo isBot()? '': 'tel:'.$href;
 ?>
 
