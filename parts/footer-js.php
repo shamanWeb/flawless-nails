@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 var feed = new Instafeed({
     get: 'user',
     userId: '11225119141',
-    accessToken: '11225119141.1677ed0.cdb74ca58f3f46f5aa513e5a1a45469e', // https://instagram.pixelunion.net/ тут получить 
+    accessToken: '11225119141.1677ed0.7225b1aaa7d5479d9248c865f0efdb9f', // https://instagram.pixelunion.net/ тут получить 
     limit: 50,
     resolution: 'low_resolution',   //thumbnail (default) - 150x150
                                     //low_resolution - 306x306
