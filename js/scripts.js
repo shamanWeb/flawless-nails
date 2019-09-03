@@ -110,7 +110,7 @@ $(function() {
     });
 
     // Анимация текста function([string1, string2],target id,[color1,color2])    
-    consoleText(['Сайт создан для моей девушки', 'С любовью'], 'text', ['#181818', 'red']);
+    consoleText(['Сайт создан для моей жены', 'С любовью'], 'text', ['#181818', 'red']);
 
     function consoleText(words, id, colors) {
         if (colors === undefined) colors = ['#000'];
