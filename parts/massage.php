@@ -5,7 +5,7 @@
             <div class="col-md-12">
                 <div class="msg">
                     <a class="whatsapp" href="https://wa.me/79204258450"><i class="icon-whatsapp"></i></a>
-                    <a class="vkontakte" href="https://vk.me/fawlessnails"><i class="icon-vkontakte"></i></a>
+                    <a class="vkontakte" href="https://vk.me/milky_nails_vrn"><i class="icon-vkontakte"></i></a>
                     <?php $post = get_post(79); setup_postdata($post); $tel=get_field('tel', $post);?>
                     <a class="phone" href="tel:<?php echo telToHref ($tel); ?>"><i class="icon-phone"></i></a>
                 </div>
