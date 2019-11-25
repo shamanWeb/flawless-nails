@@ -67,22 +67,16 @@
     <?php } ?>
     <?php wp_head(); ?>
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-    (function(m, e, t, r, i, k, a) {
-        m[i] = m[i] || function() {
-            (m[i].a = m[i].a || []).push(arguments)
-        };
-        m[i].l = 1 * new Date();
-        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(
-            k, a)
-    })
+    <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-    ym(52908865, "init", {
-        clickmap: true,
-        trackLinks: true,
-        accurateTrackBounce: true,
-        webvisor: true
+    ym(56382118, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
     });
     </script>
 
@@ -104,13 +98,13 @@
     {
         "@context": "http://www.schema.org",
         "@type": "NailSalon",
-        "name": "Flawless Nails",
-        "url": "https://flawless-nails.ru/",
-        "logo": "https://flawless-nails.ru/wp-content/uploads/2019/02/cropped-logo-1-150x150.png",
-        "image": "https://flawless-nails.ru/wp-content/uploads/2019/02/cropped-logo-1-150x150.png",
+        "name": "Milky nails",
+        "url": "https://milkynails.ru/",
+        "logo": "https://milkynails.ru/wp-content/uploads/2019/02/cropped-logo-1-150x150.png",
+        "image": "https://milkynails.ru/wp-content/uploads/2019/02/cropped-logo-1-150x150.png",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Спортивная набережная 23",
+            "streetAddress": "улица 20-летия Октября, 73А",
             "addressLocality": "Воронеж",
             "postalCode": "394007",
             "addressCountry": "Россия"

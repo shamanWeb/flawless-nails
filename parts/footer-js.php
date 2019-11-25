@@ -1,7 +1,4 @@
 
-<!--
-<script src='<?php echo get_template_directory_uri(); ?>/plugins/jquery.scrollSpeed.js'></script>
--->
 
 <? if (is_page(21)){?>
 <script src='<?php echo get_template_directory_uri(); ?>/plugins/instafeed.min.js'></script>
@@ -36,9 +33,7 @@ setTimeout(function() {
 </script>
 <? }?>
 
-<noscript>
-    <div><img src="https://mc.yandex.ru/watch/52908865" style="position:absolute; left:-9999px;" alt="" /></div>
-</noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/56382118" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <?php wp_footer(); ?>
 
 <!-- BEGIN JIVOSITE CODE {literal} -->
