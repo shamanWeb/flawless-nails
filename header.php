@@ -11,6 +11,7 @@
     <link rel="preconnect" href="//s.w.org" crossorigin>
     <link rel="preconnect" href="//yandex.ru" crossorigin>
     <meta property="vk:image" content="<?php echo wp_get_attachment_url(179); ?>" />
+    <meta name="yandex-verification" content="47c89f5eb7f4d780" />
     <style type="text/css">
     html{
         display:none;
@@ -81,7 +82,7 @@
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136703267-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136703267-1"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -93,7 +94,7 @@
     gtag('config', 'UA-136703267-1', {
         'optimize_id': 'GTM-TK333X4'
     });
-    </script>
+    </script> -->
     <script type='application/ld+json'>
     {
         "@context": "http://www.schema.org",
@@ -151,10 +152,10 @@
                         <!-- <a href="tel:<?php //echo telToHref ($tel); ?> " aria-label="Телефон" title="Телефон">
                             <i class="icon-phone"></i>
                         </a> -->
-                        <a href="https://www.instagram.com/flawlessnails_vrn" aria-label="Instagram" title="instagram">
+                        <a href="https://www.instagram.com/_milky__nails_" aria-label="Instagram" title="instagram">
                             <i class="icon-instagram"></i>
                         </a>
-                        <a href="https://vk.com/fawlessnails" aria-label="В контакте" title="В контакте">
+                        <a href="https://vk.com/milky__nails" aria-label="В контакте" title="В контакте">
                             <i class="icon-vkontakte"></i>
                         </a>
                     </div>
