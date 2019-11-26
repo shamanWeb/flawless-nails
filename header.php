@@ -10,6 +10,9 @@
     <link rel="profile" href="https://gmpg.org/xfn/11" />
     <link rel="preconnect" href="//s.w.org" crossorigin>
     <link rel="preconnect" href="//yandex.ru" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500&display=swap&subset=cyrillic" rel="stylesheet">
+
     <meta property="vk:image" content="<?php echo wp_get_attachment_url(179); ?>" />
     <meta name="yandex-verification" content="47c89f5eb7f4d780" />
     <style type="text/css">

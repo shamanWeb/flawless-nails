@@ -1,12 +1,4 @@
 /* dancing-script-regular - latin */
-@font-face {
-  font-family: 'Dancing Script';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Dancing Script Regular'), local('DancingScript-Regular'), url('fonts/dancing-script-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/dancing-script-v10-latin-regular.woff') format('woff');
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
 /* comfortaa-regular - cyrillic_latin */
 @font-face {
   font-family: 'Comfortaa';
@@ -294,7 +286,7 @@ textarea {
   align-items: center;
 }
 .header .logo a h2 {
-  font-family: 'Montserrat';
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 2.2rem;
   margin: 0;
   margin-left: 10px;
@@ -624,8 +616,8 @@ textarea {
   align-items: center;
   flex-direction: column;
 }
-#footer .logo a h2 {
-  font-family: 'Dancing Script';
+#footer .logo a h3 {
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 2.2rem;
   margin: 0;
   margin-left: 10px;
@@ -807,7 +799,7 @@ section#error404 div a {
     flex-direction: column;
   }
   #footer .logo a h2 {
-    font-family: 'Dancing Script';
+    font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 2.2rem;
     margin: 0;
     margin-left: 10px;
