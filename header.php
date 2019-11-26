@@ -80,21 +80,15 @@
             webvisor:true
     });
     </script>
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136703267-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136703267-2"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
+    gtag('config', 'UA-136703267-2');
+    </script>
 
-    gtag('config', 'UA-136703267-1', {
-        'optimize_id': 'GTM-TK333X4'
-    });
-    </script> -->
     <script type='application/ld+json'>
     {
         "@context": "http://www.schema.org",
