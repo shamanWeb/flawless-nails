@@ -373,7 +373,8 @@ textarea {
   font-size: 0.9rem;
 }
 #services .grid .grid-item .details p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 @media (max-width: 4000px) {
   #services .grid .grid-item {
