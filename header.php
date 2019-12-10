@@ -54,9 +54,9 @@
         left: 25%;
         width: 100%;
         height: 100%;
-        opacity: 0.1;
+        opacity: 0.33;
         z-index: -1;
-        background-image: url(/logo.svg);
+        background-image: url(<?php echo get_template_directory_uri(); ?>/img/logo.svg);
         background-size: cover;
     }
 
